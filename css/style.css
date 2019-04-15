@@ -1,0 +1,60 @@
+body, h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#header {
+    height: 250px;
+    width: 600px;
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    background: #40798C;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#header h1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2292A4;
+    color: white;
+}
+
+#content {
+    width: 600px;
+    padding-top: 10px;
+    position: relative;
+    background: #2292A4;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#myInput, #addTodo {
+    padding: 10px;
+    border: 5px solid #40798C;
+    user-select: none;
+    background: white;
+    outline: 0;
+}
+
+#addTodo {
+    cursor: pointer;
+}
+
+#content ul {
+    padding: 20px 0 20px 100px;
+    color: black;
+    list-style: decimal;
+    text-align: left;
+    overflow: inherit;
+}
